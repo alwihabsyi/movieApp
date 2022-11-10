@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie App 03</string>
+    <string name="detail_synopsis">Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.</string>
+    <string name="welcome_back">Welcome Back !</string>
+    <string name="popular">Popular</string>
+    <string name="just_released">Just Released</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="play">PLAY</string>
+    <string name="share">SHARE</string>
+    <string name="highlights">Highlights</string>
+    <string name="other_you_might_like">Other You Might Like</string>
+    <string name="sign_in">Sign In to your account !</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="email_here">Your email here</string>
+    <string name="pass_here">Your password here</string>
+</resources>

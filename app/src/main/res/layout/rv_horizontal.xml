@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="353dp"
+    android:layout_height="200dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="10dp">
+
+
+    <ImageView
+        android:id="@+id/img_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:foreground="@drawable/bg_text"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="13dp"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingBottom="22dp"
+        android:text="Overview"
+        android:textColor="#C8C8C8"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_views"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="13dp"
+        android:paddingBottom="14dp"
+        android:text="1000 Views"
+        android:textColor="#C8C8C8" />
+
+</androidx.cardview.widget.CardView>

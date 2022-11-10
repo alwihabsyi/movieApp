@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1028441679516",
+    "project_id": "movieapp-cfbee",
+    "storage_bucket": "movieapp-cfbee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028441679516:android:c14d5ee8055743ea36af59",
+        "android_client_info": {
+          "package_name": "com.example.movieapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028441679516-1a7nkp3i5mnffs6qa6v1fb6ht0odl79m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa4s-aSfQjomX-QRQdWqZGZnBBZadWuXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028441679516-1a7nkp3i5mnffs6qa6v1fb6ht0odl79m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

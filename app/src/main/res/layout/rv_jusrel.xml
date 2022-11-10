@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="150dp"
+    android:layout_height="250dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="3dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="10dp">
+
+    <ImageView
+        android:id="@+id/iv_jusrel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:foreground="@drawable/bg_text"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_jrtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Overview"
+        android:textColor="#C8C8C8"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_dateJR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="date"
+        android:textColor="#C8C8C8"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="17dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg_rating" />
+
+        <ImageView
+            android:id="@+id/icon_star"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5.5dp"
+            android:src="@drawable/ic_baseline_star_rate_24" />
+
+        <TextView
+            android:id="@+id/tv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@+id/icon_star"
+            android:text="10.0"
+            android:textColor="#C8C8C8"
+            android:textSize="9sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
